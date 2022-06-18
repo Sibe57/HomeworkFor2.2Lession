@@ -26,12 +26,14 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        setupLights()
         setupButton()
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        setupLights() //Пришлось переопределить этот метод что бы расчитать правильно радиусы закруглений, во viewDidLoad я так понял информации и ширине фрейма светофора еще нет
     }
 
     @IBAction func changeButtonTapped() {
-        
         changeButton.setTitle("NEXT", for: .normal)
         switch trafficLightState {
         case .off:
@@ -52,9 +54,10 @@ class ViewController: UIViewController {
         }
     }
     private func setupLights() {
-        redLight.layer.cornerRadius = 64
-        yellowLight.layer.cornerRadius = 64
-        greenLight.layer.cornerRadius = 64
+        let halfOfWidth = redLight.layer.frame.width / 2
+        redLight.layer.cornerRadius = halfOfWidth
+        yellowLight.layer.cornerRadius = halfOfWidth
+        greenLight.layer.cornerRadius = halfOfWidth
         redLight.alpha = 0.3
         greenLight.alpha = 0.3
         yellowLight.alpha = 0.3
