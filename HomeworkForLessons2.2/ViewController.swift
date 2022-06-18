@@ -10,25 +10,29 @@ import UIKit
 class ViewController: UIViewController {
 
     @IBOutlet weak var changeButton: UIButton!
+    
     @IBOutlet weak var greenLight: UIView!
     @IBOutlet weak var yellowLight: UIView!
     @IBOutlet weak var redLight: UIView!
-    var trafficLightState: TraficLightState = .off
-    
+   
     enum TraficLightState {
         case off
         case red
         case yellow
         case green
     }
+    
+    var trafficLightState: TraficLightState = .off
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        trafficLightState = .off
         setupLights()
         setupButton()
     }
 
     @IBAction func changeButtonTapped() {
+        
+        changeButton.setTitle("NEXT", for: .normal)
         switch trafficLightState {
         case .off:
             trafficLightState = .red
