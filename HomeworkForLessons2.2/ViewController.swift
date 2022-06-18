@@ -22,7 +22,7 @@ class ViewController: UIViewController {
         case green
     }
     
-    var trafficLightState: TraficLightState = .off
+    private var trafficLightState: TraficLightState = .off
     
     override func viewDidLoad() {
         super.viewDidLoad()
