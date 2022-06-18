@@ -15,7 +15,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var yellowLight: UIView!
     @IBOutlet weak var redLight: UIView!
    
-    enum TraficLightState {
+    private enum TraficLightState {
         case off
         case red
         case yellow
