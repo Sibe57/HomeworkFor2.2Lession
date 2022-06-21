@@ -14,13 +14,6 @@ class ViewController: UIViewController {
     @IBOutlet weak var greenLight: UIView!
     @IBOutlet weak var yellowLight: UIView!
     @IBOutlet weak var redLight: UIView!
-   
-    private enum TraficLightState {
-        case off
-        case red
-        case yellow
-        case green
-    }
     
     private var trafficLightState: TraficLightState = .off
     
@@ -29,8 +22,8 @@ class ViewController: UIViewController {
         setupButton()
     }
     
-    override func viewDidAppear(_ animated: Bool) {
-        setupLights() //Пришлось переопределить этот метод что бы расчитать правильно радиусы закруглений, во viewDidLoad я так понял информации и ширине фрейма светофора еще нет
+    override func viewWillLayoutSubviews() {
+        setupLights()
     }
 
     @IBAction func changeButtonTapped() {
@@ -67,7 +60,15 @@ class ViewController: UIViewController {
         changeButton.setTitle("START", for: .normal)
         changeButton.layer.cornerRadius = 10
     }
-    
+}
 
+//MARK: - TraficLightState
+extension ViewController {
+    private enum TraficLightState {
+        case off
+        case red
+        case yellow
+        case green
+    }
 }
 

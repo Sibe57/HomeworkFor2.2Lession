@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Created with Vectornator (http://vectornator.io/) -->
+<svg height="100%" stroke-miterlimit="10" style="fill-rule:nonzero;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;" version="1.1" viewBox="0 0 205 535" width="100%" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:vectornator="http://vectornator.io" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<filter color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse" height="541.544" id="Filter" width="161.801" x="18.941" y="-4.6653">
+<feDropShadow dx="-1.58976" dy="-2.54414" flood-color="#000000" flood-opacity="0.141964" in="SourceGraphic" result="Shadow" stdDeviation="1"/>
+</filter>
+</defs>
+<clipPath id="ArtboardFrame">
+<rect height="535" width="205" x="0" y="0"/>
+</clipPath>
+<g clip-path="url(#ArtboardFrame)" id="Слой-1" vectornator:layerName="Слой 1">
+<path d="M73.5276 0.878844L129.335 0.878844C156.947 0.878844 179.332 18.8819 179.332 41.0898L179.332 495.668C179.332 517.876 156.947 535.879 129.335 535.879L73.5276 535.879C45.9151 535.879 23.5307 517.876 23.5307 495.668L23.5307 41.0898C23.5307 18.8819 45.9151 0.878844 73.5276 0.878844Z" fill="#000000" fill-rule="evenodd" filter="url(#Filter)" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" vectornator:shadowAngle="1.01229" vectornator:shadowColor="#000000" vectornator:shadowOffset="-3" vectornator:shadowOpacity="0.141964" vectornator:shadowRadius="2"/>
+<path d="M0 41.3342L64.4883 14.4432L35.3897 132.548L0 41.3342Z" fill="#000000" fill-rule="evenodd" opacity="1" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+<path d="M0 205.646L64.4883 178.755L35.3897 296.86L0 205.646Z" fill="#000000" fill-rule="evenodd" opacity="1" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+<path d="M0 370.441L64.4883 343.55L35.3897 461.655L0 370.441Z" fill="#000000" fill-rule="evenodd" opacity="1" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+<path d="M205 41.3809L140.512 14.49L169.61 132.595L205 41.3809Z" fill="#000000" fill-rule="evenodd" opacity="1" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+<path d="M205 205.692L140.512 178.801L169.61 296.906L205 205.692Z" fill="#000000" fill-rule="evenodd" opacity="1" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+<path d="M205 370.488L140.512 343.597L169.61 461.702L205 370.488Z" fill="#000000" fill-rule="evenodd" opacity="1" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+<path d="M40.3614 102.509C40.3614 67.9907 68.3436 40.0085 102.861 40.0085C137.379 40.0085 165.361 67.9907 165.361 102.509C165.361 137.026 137.379 165.009 102.861 165.009C68.3436 165.009 40.3614 137.026 40.3614 102.509Z" fill="#ffffff" fill-rule="evenodd" opacity="0" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+<path d="M39.9856 267.5C39.9856 232.982 67.9678 205 102.486 205C137.003 205 164.986 232.982 164.986 267.5C164.986 302.018 137.003 330 102.486 330C67.9678 330 39.9856 302.018 39.9856 267.5Z" fill="#ffffff" fill-rule="evenodd" opacity="0" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+<path d="M39.9856 432.508C39.9856 397.991 67.9678 370.008 102.486 370.008C137.003 370.008 164.986 397.991 164.986 432.508C164.986 467.026 137.003 495.008 102.486 495.008C67.9678 495.008 39.9856 467.026 39.9856 432.508Z" fill="#ffffff" fill-rule="evenodd" opacity="0" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+</g>
+</svg>
